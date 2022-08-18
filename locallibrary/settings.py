@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY", "eu09(ilk6@4sfdofb=b_2ht@vad*$e
 # DEBUG = True
 DEBUG = os.environ.get("DJANGO_DEBUG", "") != "False"
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["whispering-bayou-44371.herokuapp.com/", "127.0.0.1"]
 
 
 # Application definition
